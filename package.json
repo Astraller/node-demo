@@ -1,0 +1,22 @@
+{
+  "name": "demo_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "stress-test": "node stresstest",
+    "test": "jest"
+  },
+  "author": "Afonin Alex",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^2.8.0",
+    "socket.io": "^2.2.0",
+    "uuid": "^3.3.2",
+    "socket.io-client": "^2.2.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
